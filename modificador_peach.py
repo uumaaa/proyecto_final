@@ -40,8 +40,8 @@ def generate_pitch_variations(input_file, output_folder, csv_file,message,respon
         append_to_csv(csv_file, [output_file_name,message,response])
 
 if __name__ == "__main__":
-    input_audio_file = 'audios/comoestas.wav'
+    input_audio_file = 'audios/cualnombre.wav'
     output_folder = "audios"
     csv_file = "data.csv"
 
-    generate_pitch_variations(input_audio_file, output_folder, csv_file, "¿CÓMO ESTÁS?","SOY UN ASISTENTE NO TENGO SENTIMIENTOS",num_variations=200)
+    generate_pitch_variations(input_audio_file, output_folder, csv_file, "¿CUÁL ES TU NOMBRE?","SOY CHATO UN ASISTENTE VIRTUAL",num_variations=200)
